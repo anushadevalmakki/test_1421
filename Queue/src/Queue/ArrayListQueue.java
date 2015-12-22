@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class ArrayListQueue {
 	 private ArrayList queue = new ArrayList();
 	 int rear=-1;
+	 
 	 public ArrayListQueue() {
 			this.rear=-1;
 		}
