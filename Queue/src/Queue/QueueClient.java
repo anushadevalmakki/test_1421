@@ -4,6 +4,8 @@ public class QueueClient {
 
 	public static void main(String[] args) {
 		System.out.println("****Stacl Implementation using arrays****");
+		
+		
 		 ArrayListQueue arrayQueue=new  ArrayListQueue();
 		arrayQueue.enquee(1);
 		arrayQueue.display();
