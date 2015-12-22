@@ -54,6 +54,7 @@ public class ArrayQueue {
 			System.out.println("\nThe queue is empty");
 		else
 		{
+			
 			System.out.println("Dequee element is\t" +queue[head]);
 			this.head=head+1;
 		}
@@ -63,8 +64,7 @@ public class ArrayQueue {
 		if(head==size)
 		{
 			return true;
-		}
-			
+		}	
 		else
 			return false;
 	}
