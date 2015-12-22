@@ -68,5 +68,8 @@ public class ArrayQueue {
 		else
 			return false;
 	}
+	  public int noOFelements(){
+		  return (tail-head);
+	  }
 
 }
