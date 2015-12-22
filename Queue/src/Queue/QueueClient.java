@@ -3,8 +3,8 @@ package Queue;
 public class QueueClient {
 
 	public static void main(String[] args) {
-		System.out.println("****Stacl Implementation****");
-		ArrayQueue arrayQueue=new ArrayQueue(2);
+		System.out.println("****Stacl Implementation using arrays****");
+		ArrayQueue arrayQueue=new ArrayQueue();
 		arrayQueue.enquee(1);
 		arrayQueue.display();
 		arrayQueue.enquee(13);
@@ -16,7 +16,8 @@ public class QueueClient {
 		arrayQueue.dequee();
 		arrayQueue.display();
 		arrayQueue.dequee();
-	
+	//	ArrayQueue arrayList=new ArrayListQueue();
+		
 	}
 	
 

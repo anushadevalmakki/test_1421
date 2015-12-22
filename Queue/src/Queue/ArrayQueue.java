@@ -3,9 +3,8 @@ public class ArrayQueue {
 	int size;
 	int head,tail;
 	int queue[];
-	//ArrayList queue = new ArrayList(); 
-	public ArrayQueue(int size) {
-		this.size=size;
+	public ArrayQueue() {
+		this.size=2;
 		this.head=this.tail=-1;
 		this.queue=new int[size];
 	}
@@ -46,8 +45,9 @@ public class ArrayQueue {
 			System.out.print("\nThe queue are\t:");
 			for(i=head;i<=tail;i++)
 			System.out.print("  "+queue[i]);
+			System.out.println("");
 		}
-		System.out.println("\n");
+		
 	}
 	public void dequee() {
 		if(IsEmpty())
