@@ -16,6 +16,7 @@ public class QueueClient {
 		arrayQueue.dequee();
 		arrayQueue.display();
 		arrayQueue.dequee();
+		arrayQueue.display();
 	//	ArrayQueue arrayList=new ArrayListQueue();
 		
 	}

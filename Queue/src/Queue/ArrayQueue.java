@@ -4,7 +4,7 @@ public class ArrayQueue {
 	int head,tail;
 	int queue[];
 	public ArrayQueue() {
-		this.size=2;
+		this.size=7;
 		this.head=this.tail=-1;
 		this.queue=new int[size];
 	}
